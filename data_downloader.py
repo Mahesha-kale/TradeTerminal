@@ -15,7 +15,7 @@ for inde,stk in enumerate(stklist):
     # time_series_daily_close = list(price_history_daily['Close'])
     #time_series_daily_open = list(price_history_daily['Open'])
     #days_200 = time_series_daily_close[-200:]
-    with open(f"{stk}.csv", 'w') as writer:
+    with open(f"CSV_Files\\{stk}.csv", 'w') as writer:
         price_history_daily.to_csv(writer, index=True)
     print(f"Downloaded {stk}")
     
