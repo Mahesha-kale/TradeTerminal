@@ -7,3 +7,6 @@ print("Hello World!!")
 # Todo: Add Support For Extension
 # Todo: Add Indicators
 # Todo: Add Support For ML Models
+# Todo: Add Support for concurent read and write Transaction in Database.
+# Todo: Schema for database can be based on the stock exchange for example NSE.<stock ticker>
+# Todo: get the stock list from from nse by nsetools lib.
